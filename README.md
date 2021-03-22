@@ -1,5 +1,5 @@
+<h1> TO DO LIST </h1>
 <ul>
-    <li><h1> TO DO LIST </h2></li>
     <li><h2> STORE PROCEDURE </h2></li>
     <li><h2> FUNCTION </h2></li>
     <li><h2> TRIGGER </h2></li>
