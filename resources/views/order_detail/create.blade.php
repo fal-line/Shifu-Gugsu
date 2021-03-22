@@ -96,8 +96,8 @@
                   <label for="status">Status order</label>
                   <select id="status" name='status' class="form-control">
                     <option value="Dibuat">Di buat</option>
-                    <option value="Sedang di masak">Sedang di masak</option>
-                    <option value="Siap di antarkan">Siap di antarkan</option>
+                    <option value="Sedang dimasak">Sedang di masak</option>
+                    <option value="Siap diantarkan">Siap di antarkan</option>
                     <option value="Diterima">Di terima</option>
                     <option value="Selesai">Selesai</option>
                   </select>
