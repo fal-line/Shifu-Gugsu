@@ -1,0 +1,54 @@
+<div class="row justify-content-center mt-5">
+              <div class="row col-md-10 justify-content-center">
+                    <div class="row col-sm-5 mb-5 justify-content-center">
+                        <div class="card " style="width: 18rem;">
+                          <img src="img/dummy-card.png" class="card-img-top">
+                          <div class="card-body">
+                            <h5 class="card-text">Sudah mempunyai banyak cabang yang tersebar di ibukota!</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row col-sm-5 mb-5 justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                          <img src="img/dummy-card.png" class="card-img-top">
+                          <div class="card-body">
+                            <h5 class="card-text">Tersedia berbagai hidangan segar yang di buat langsung sesaat setelah memesan.</h5>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row col-md-10 justify-content-center">
+                    <div class="row col-sm-5 justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                          <img src="img/dummy-card.png" class="card-img-top">
+                          <div class="card-body">
+                            <h5 class="card-text">Hideaki tetap buka! dan menerapkan protokol kesehatan demi menjaga kesehatan pengunjung!</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row col-sm-5 justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                          <img src="img/dummy-card.png" class="card-img-top">
+                          <div class="card-body">
+                            <h5 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</h5>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+              <div class="form-group">
+                <label for="status">Status ketersediaan menu</label>
+                <select id="status" name='status' class="form-control @error('status') is-invalid @enderror">
+                  <option value="coming" {{ $menu->status == 'coming' ? 'selected' : '' }}>Coming Soon</option>
+                  <option value="empty" {{ $menu->status == 'empty' ? 'selected' : '' }}>Out of Stock</option>
+                  <option value="available" {{ $menu->status == 'available' ? 'selected' : '' }}>Available</option>
+                </select>
+              </div>
