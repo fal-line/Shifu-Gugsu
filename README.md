@@ -1,6 +1,13 @@
-<h1> TO DO LIST </h1>
-<h1> STORE PROCEDURE, FUNCTION, TRIGGER, ACTIVITY LOG, COMMIT, ROLLBACK, GENERATE DOCUMENT </h1>
-
+<ul>
+    <li><h1> TO DO LIST </h2></li>
+    <li><h2> STORE PROCEDURE </h2></li>
+    <li><h2> FUNCTION </h2></li>
+    <li><h2> TRIGGER </h2></li>
+    <li><h2> ACTIVITY LOG </h2></li>
+    <li><h2> COMMIT </h2></li>
+    <li><h2> ROLLBACK </h2></li>
+    <li><h2> GENERATE DOCUMENT </h2></li>
+</ul>
 
 
 
